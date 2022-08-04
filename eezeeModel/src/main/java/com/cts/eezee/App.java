@@ -20,7 +20,7 @@ public class App
     	Booking book=context.getBean("booking",Booking.class);
     	book.setCustomername("Shivam");
     	book.setDestination("Bangalore");
-    	book.setMobileNumber(9493086480L);
+    	book.setMobileNumber(9990346100L);
         book.setDateOfJourney("25-06-2000");
     	ts.registerBooking(book);
     	ts.calculateTravelCost("Chennai", "Pune", "26-07-2001");
