@@ -24,8 +24,8 @@ public class LoginController {
     public String submit(Model model,@ModelAttribute("loginBean") LoginBean loginBean) {
         if (loginBean != null && loginBean.getUserName() != null
                 & loginBean.getPassword() != null) {
-            if (loginBean.getUserName().equals("chandra")
-                    && loginBean.getPassword().equals("chandra123")) {
+            if (loginBean.getUserName().equals("shivam")
+                    && loginBean.getPassword().equals("shivam123")) {
                 model.addAttribute("msg", loginBean.getUserName());
                 return "success";
             } else {
