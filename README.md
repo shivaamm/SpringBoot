@@ -1,4 +1,4 @@
 # SpringBoot - Tavant Training
 
-* SpringJDBCTemplateExample (yesterday's assignment)
-* Demo (Person code - Spring Jpa)
+* All Spring Handson and Practice
+* All eclipse questions and practice inside eclipse folder
